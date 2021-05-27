@@ -1,0 +1,105 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!21 &2100000
+Material:
+  serializedVersion: 6
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: ReflectionBox
+  m_Shader: {fileID: 4800000, guid: 382d5693d845c4f4f93dd275ff774d09, type: 3}
+  m_ShaderKeywords: _ISLIGHTBULB_ON _ISOCTAHEDRON_ON _ISPHANTOM_ON _ISTORUS_ON _MODE_LIGHTBULB
+  m_LightmapFlags: 4
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: -1
+  stringTagMap: {}
+  disabledShaderPasses: []
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+    - _BumpMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _DetailAlbedoMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _DetailMask:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _DetailNormalMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _EmissionMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _MainTex:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _MetallicGlossMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _OcclusionMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _ParallaxMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Floats:
+    - _Bloom: 2
+    - _BoxSeed: 10
+    - _BoxSpeed: 0.06
+    - _BumpScale: 1
+    - _ColorSpeed: 1
+    - _Cutoff: 0.5
+    - _DetailNormalMapScale: 1
+    - _DstBlend: 0
+    - _FIntensity: 4
+    - _FThreshold: 0.08
+    - _GlossMapScale: 1
+    - _Glossiness: 0.5
+    - _GlossyReflections: 1
+    - _IsBox: 0
+    - _IsLightBulb: 1
+    - _IsOctahedron: 1
+    - _IsPhantom: 1
+    - _IsSphere: 0
+    - _IsTorus: 1
+    - _LIntensity: 2
+    - _LightBulbSeed: 300
+    - _LightBulbSpeed: 0.3
+    - _Metallic: 0
+    - _Mode: 5
+    - _OcclusionStrength: 1
+    - _OctahedronSeed: 80
+    - _OctahedronSize: 0.1
+    - _OctahedronSpeed: 0.25
+    - _Parallax: 0.02
+    - _Saturation: 0.6
+    - _SmoothnessTextureChannel: 0
+    - _SpecularHighlights: 1
+    - _SphereSeed: 0
+    - _SphereSize: 0.1
+    - _SphereSpeed: 0.07
+    - _SrcBlend: 1
+    - _TorusRLen: 0.1
+    - _TorusSeed: 50
+    - _TorusSpeed: 0.1
+    - _TorusrLen: 0.04
+    - _UVSec: 0
+    - _ZWrite: 1
+    m_Colors:
+    - _BoxSize: {r: 0.1, g: 0.1, b: 0.1, a: 1}
+    - _Color: {r: 1, g: 1, b: 1, a: 1}
+    - _EmissionColor: {r: 0, g: 0, b: 0, a: 1}
+    - _RefBoxSize: {r: 1, g: 1, b: 1.01, a: 1}
